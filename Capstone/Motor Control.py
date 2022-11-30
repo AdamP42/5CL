@@ -11,7 +11,7 @@ dir = digitalio.DigitalInOut(board.IO10)
 dir.direction = digitalio.Direction.OUTPUT
 micro_step = digitalio.DigitalInOut(board.IO3)
 micro_step.direction = digitalio.Direction.OUTPUT
-micro_step.value = True
+micro_step.value = True 
 dir.value = True
 step.value = False
 
